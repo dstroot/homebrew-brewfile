@@ -23,7 +23,6 @@ brew 'wrk'
 
 # Go Stuff
 brew 'go'
-# brew 'glide' - using dep now
 brew 'dep'
 brew 'go-delve/delve/delve'
 brew 'kubectl'
@@ -45,19 +44,17 @@ cask_args appdir: '/Applications'
 # -------------------------
 cask 'atom'
 cask 'cheatsheet'
-# cask 'dropbox'
 cask 'filezilla'
-# cask 'flux'
 cask 'github'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
 cask 'kitematic'
 cask 'iterm2'
 cask 'keepingyouawake'
-# cask 'logitech-unifying'
 cask 'slack'
 cask 'spectacle'
 cask 'spotify'
+
 # minikube uses virtualbox so it must be first
 cask 'virtualbox' 
 cask 'minikube'
