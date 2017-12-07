@@ -3,6 +3,7 @@ tap 'homebrew/bundle'
 tap 'homebrew/versions'
 tap 'homebrew/core'
 tap 'go-delve/delve'
+tap 'kryptco/tap'
 # -------------------------
 brew 'bash-completion'
 brew 'git'
@@ -15,11 +16,20 @@ brew 'gpm'
 brew 'openssl'
 brew 'shellcheck'
 brew 'ssh-copy-id'
+brew 'lastpass-cli', args: ['with-pinentry', 'with-doc']
 brew 'tree'
 brew 'vault'
 brew 'wget', args: ['with-iri']
+brew 'grep' #, args: ['with-default-names']
 brew 'zsh'
+brew 'zsh-completions'
 brew 'wrk'
+
+# Install GNU core utilities (those that come with macOS are outdated)
+brew 'coreutils'
+
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
+brew 'findutils'
 
 # Go Stuff
 brew 'go'
@@ -32,6 +42,8 @@ brew 'kubernetes-helm'
 brew 'yarn', args: ['without-node']
 # Watchman is a tool by Facebook for watching changes in the filesystem.
 brew 'watchman'
+# secure ssh
+brew 'kryptco/tap/kr'
 
 # dependencies
 brew 'gdbm'
@@ -49,6 +61,7 @@ cask 'github'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
 cask 'kitematic'
+cask 'handbrake'
 cask 'iterm2'
 cask 'keepingyouawake'
 cask 'slack'
@@ -67,7 +80,6 @@ tap 'buo/cask-upgrade'
 # install fonts
 tap 'caskroom/fonts'
 # --------------------------
-cask 'caskroom/fonts/font-droid-sans-mono'
 cask 'caskroom/fonts/font-hack'
 cask 'caskroom/fonts/font-hasklig'
 cask 'caskroom/fonts/font-monoid'
@@ -108,12 +120,6 @@ mas 'Slack', id: 803453959
 # mas "QuickBooks", id: 640830064
 # mas "WiFi Explorer", id: 494803304
 # mas "WiFi Signal", id: 525912054
-
-
-
-
-
-
 
 
 # ***  Examples ***
