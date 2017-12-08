@@ -95,6 +95,10 @@ mas 'Skitch', id: 425955336
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Xcode', id: 497799835
 mas 'Slack', id: 803453959
+mas 'Evernote', id: 406056744
+mas 'Todoist', id: 585829637
+
+# mas 'Bitcoin Expert', id: 1237809495
 
 # mas 'Pages', id: 409201541
 # mas 'Numbers', id: 409203825
@@ -104,7 +108,6 @@ mas 'Slack', id: 803453959
 
 # mas 'Twitter', id: 409789998
 # mas 'iPhoto', id: 408981381
-# mas 'Evernote', id: 406056744
 # mas 'TurboTax 2015', id: 1061844571
 # mas 'LastPass', id: 926036361
 # mas 'Aperture', id: 408981426
