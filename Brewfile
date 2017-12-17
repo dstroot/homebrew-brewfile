@@ -32,6 +32,11 @@ brew 'coreutils'
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew 'findutils'
 
+# Other GNU utils
+brew 'gnu-sed'#, args: ['with-default-names']
+brew 'gnu-tar'#, args: ['with-default-names']
+brew 'gnu-which'#, args: ['with-default-names']
+
 # Go Stuff
 brew 'go'
 brew 'dep'
