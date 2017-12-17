@@ -24,6 +24,7 @@ brew 'grep' #, args: ['with-default-names']
 brew 'zsh'
 brew 'zsh-completions'
 brew 'wrk'
+brew 'upx'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
