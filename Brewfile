@@ -73,6 +73,7 @@ cask 'keepingyouawake'
 cask 'slack'
 cask 'spectacle'
 cask 'spotify'
+cask 'keybase'
 
 # minikube uses virtualbox so it must be first
 cask 'virtualbox' 
