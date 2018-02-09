@@ -76,6 +76,8 @@ cask 'spectacle'
 cask 'spotify'
 cask 'keybase'
 cask 'telegram'
+# API tool
+cask 'insomnia'
 
 # minikube uses virtualbox so it must be first
 cask 'virtualbox' 
