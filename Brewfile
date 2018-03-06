@@ -76,6 +76,8 @@ cask 'spectacle'
 cask 'spotify'
 cask 'keybase'
 cask 'telegram'
+cask 'sketch'
+
 # API tool
 cask 'insomnia'
 
