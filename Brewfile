@@ -61,7 +61,7 @@ tap 'caskroom/cask'
 cask_args appdir: '/Applications'
 # -------------------------
 cask 'atom'
-# cask 'visual-studio-code'
+cask 'visual-studio-code'
 cask 'cheatsheet'
 cask 'filezilla'
 cask 'github'
