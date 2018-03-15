@@ -25,6 +25,7 @@ brew 'zsh'
 brew 'zsh-completions'
 brew 'wrk'
 brew 'upx'
+brew 'telnet'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
