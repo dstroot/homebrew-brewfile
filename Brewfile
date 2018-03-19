@@ -52,6 +52,9 @@ brew 'watchman'
 # secure ssh
 brew 'kryptco/tap/kr'
 
+# MacOS driver for docker/minikube
+brew 'docker-machine-driver-xhyve'
+
 # dependencies
 brew 'gdbm'
 brew 'pcre'
