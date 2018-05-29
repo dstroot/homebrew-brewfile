@@ -45,6 +45,9 @@ brew 'go-delve/delve/delve'
 brew 'kubectl'
 brew 'kubernetes-helm'
 
+# Python
+brew 'python'
+
 # React
 brew 'yarn', args: ['without-node']
 # Watchman is a tool by Facebook for watching changes in the filesystem.
