@@ -45,7 +45,7 @@ brew 'go-delve/delve/delve'
 brew 'kubectl'
 brew 'kubernetes-helm'
 
-# Python
+# Python 3
 brew 'python'
 
 # React
