@@ -40,8 +40,6 @@ brew 'gnu-which'#, args: ['with-default-names']
 
 # Go Stuff
 brew 'go'
-brew 'dep'
-brew 'go-delve/delve/delve'
 brew 'kubectl'
 brew 'kubernetes-helm'
 
