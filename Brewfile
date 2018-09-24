@@ -80,6 +80,8 @@ cask 'keybase'
 cask 'telegram'
 cask 'sketch'
 cask 'ngrok'
+# https://github.com/Eloston/ungoogled-chromium
+cask 'eloston-chromium' 
 
 # API tool
 cask 'insomnia'
