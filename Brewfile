@@ -105,16 +105,16 @@ cask 'caskroom/fonts/font-source-code-pro'
 cask 'caskroom/fonts/font-iosevka'
 cask 'caskroom/fonts/font-input'
 
-# install app store apps
-brew 'mas'
-# -------------------------
-mas 'Clear', id: 504544917
-mas 'Skitch', id: 425955336
-mas 'Microsoft Remote Desktop', id: 1295203466
-mas 'Xcode', id: 497799835
-mas 'Slack', id: 803453959
-mas 'Evernote', id: 406056744
-mas 'Todoist', id: 585829637
+# # install app store apps
+# brew 'mas'
+# # -------------------------
+# mas 'Clear', id: 504544917
+# mas 'Skitch', id: 425955336
+# mas 'Microsoft Remote Desktop', id: 1295203466
+# mas 'Xcode', id: 497799835
+# mas 'Slack', id: 803453959
+# mas 'Evernote', id: 406056744
+# mas 'Todoist', id: 585829637
 
 # mas 'Bitcoin Expert', id: 1237809495
 
