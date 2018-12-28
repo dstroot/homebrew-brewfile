@@ -1,6 +1,5 @@
 # homebrew apps
 tap 'homebrew/bundle'
-tap 'homebrew/versions'
 tap 'homebrew/core'
 tap 'go-delve/delve'
 tap 'kryptco/tap'
@@ -65,7 +64,7 @@ cask_args appdir: '/Applications'
 cask 'atom'
 cask 'visual-studio-code'
 cask 'cheatsheet'
-cask 'filezilla'
+# cask 'filezilla'
 cask 'github'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
@@ -152,3 +151,49 @@ cask 'caskroom/fonts/font-input'
 # cask 'google-chrome'
 # cask 'java' unless system '/usr/libexec/java_home --failfast'
 # cask 'firefox', args: { appdir: '~/my-apps/Applications' }
+
+
+# Homebrew Services
+# Integrates Homebrew formulae with macOS' launchctl manager.
+# 
+# Azure Pipelines
+# 
+# Requirements
+# Homebrew is used for installing the services.
+# 
+# This does not work with Linuxbrew (so don't file Linux issues, please).
+# 
+# Install
+# brew services is automatically installed when run.
+# 
+# Usage
+# ==Start==
+
+# Start the MySQL service at login with:
+# brew services start mysql
+
+# Start the Dnsmasq service at boot with:
+# sudo brew services start dnsmasq
+
+# Start all available services with:
+# brew services start --all
+
+# ==Run==
+# Run the MySQL service but don't start it at login (nor boot) with:
+# brew services run mysql
+# 
+# Stop
+# Stop the MySQL service with:
+# brew services stop mysql
+# 
+# Restart
+# Restart the MySQL service with:
+# brew services restart mysql
+#
+# List
+# List all services managed by brew services with:
+# brew services list
+#
+# Cleanup
+# Remove all unused services with:
+# brew services cleanup
