@@ -95,14 +95,14 @@ cask 'popsql'
 tap 'buo/cask-upgrade'
 
 # install fonts
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 # --------------------------
-cask 'caskroom/fonts/font-hack'
-cask 'caskroom/fonts/font-hasklig'
-cask 'caskroom/fonts/font-monoid'
-cask 'caskroom/fonts/font-source-code-pro'
-cask 'caskroom/fonts/font-iosevka'
-cask 'caskroom/fonts/font-input'
+cask 'font-hack'
+cask 'font-hasklig'
+cask 'font-monoid'
+cask 'font-source-code-pro'
+cask 'font-iosevka'
+cask 'font-input'
 
 # install app store apps
 brew 'mas'
