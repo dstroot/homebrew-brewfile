@@ -116,25 +116,18 @@ mas 'Evernote', id: 406056744
 mas 'Todoist', id: 585829637
 
 
-#1295203466 Microsoft Remote Desktop (10.2.4)
-#406056744 Evernote (7.7)
+
+# ---- native apps 2019
 #682658836 GarageBand (10.3.2)
 #408981434 iMovie (10.1.10)
-#497799835 Xcode (10.1)
 #409201541 Pages (7.3)
 #409183694 Keynote (8.3)
-#803453959 Slack (3.3.3)
-#585829637 Todoist (7.1.1)
 #409203825 Numbers (5.3)
 
 
 # mas 'Bitcoin Expert', id: 1237809495
 
-# mas 'Pages', id: 409201541
-# mas 'Numbers', id: 409203825
-# mas 'Keynote', id: 409183694
 
-# mas 'iMovie', id: 408981434
 
 # mas 'Twitter', id: 409789998
 # mas 'iPhoto', id: 408981381
@@ -148,7 +141,6 @@ mas 'Todoist', id: 585829637
 # mas "CCMenu", id: 603117688
 # mas "DrCleaner", id: 921458519
 # mas "Frame.io", id: 992958444
-# mas "iMovie", id: 408981434
 # mas "Magnet", id: 441258766
 # mas "QuickBooks", id: 640830064
 # mas "WiFi Explorer", id: 494803304
