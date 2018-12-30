@@ -58,29 +58,27 @@ brew 'pcre'
 brew 'libidn'
 
 # install casks
-tap 'caskroom/cask'
+# tap 'caskroom/cask'
 cask_args appdir: '/Applications'
 # -------------------------
 cask 'atom'
 cask 'visual-studio-code'
-cask 'cheatsheet'
+# cask 'cheatsheet'
 # cask 'filezilla'
 cask 'github'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
 cask 'kitematic'
-cask 'handbrake'
+# cask 'handbrake'
 cask 'iterm2'
 cask 'keepingyouawake'
 cask 'slack'
 cask 'spectacle'
 cask 'spotify'
-cask 'keybase'
-cask 'telegram'
-cask 'sketch'
-cask 'ngrok'
-# https://github.com/Eloston/ungoogled-chromium
-# cask 'eloston-chromium' 
+# cask 'keybase'
+# cask 'telegram'
+# cask 'sketch'
+# cask 'ngrok'
 
 # API tool
 cask 'insomnia'
@@ -89,9 +87,12 @@ cask 'insomnia'
 cask 'virtualbox' 
 cask 'minikube'
 
+# SQL tool
 cask 'popsql'
 
 # https://github.com/buo/homebrew-cask-upgrade
+# brew-cask-upgrade is a command-line tool for upgrading every 
+# outdated app installed by Homebrew Cask.
 tap 'buo/cask-upgrade'
 
 # install fonts
