@@ -58,23 +58,25 @@ brew 'pcre'
 brew 'libidn'
 
 # install casks
-# tap 'caskroom/cask'
+tap 'homebrew/cask'
 cask_args appdir: '/Applications'
 # -------------------------
 cask 'atom'
 cask 'visual-studio-code'
-# cask 'cheatsheet'
-# cask 'filezilla'
 cask 'github'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
 cask 'kitematic'
-# cask 'handbrake'
 cask 'iterm2'
 cask 'keepingyouawake'
 cask 'slack'
 cask 'spectacle'
 cask 'spotify'
+
+# --- Other ---
+# cask 'cheatsheet'
+# cask 'filezilla'
+# cask 'handbrake'
 # cask 'keybase'
 # cask 'telegram'
 # cask 'sketch'
@@ -106,10 +108,10 @@ cask 'font-iosevka'
 cask 'font-input'
 
 # install app store apps
+# https://github.com/mas-cli/mas
+# -------------------------
 brew 'mas'
 # -------------------------
-# mas 'Clear', id: 504544917
-# mas 'Skitch', id: 425955336
 mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'Xcode', id: 497799835
 mas 'Slack', id: 803453959
@@ -117,26 +119,22 @@ mas 'Evernote', id: 406056744
 mas 'Todoist', id: 585829637
 
 
+# --- native apps 2019 ---
+# mas 'GarageBand', id: 682658836
+# mas 'iMovie', id: 408981434
+# mas 'Pages', id: 409201541
+# mas 'Keynote', id: 409183694
+# mas 'Numbers', id: 409203825
 
-# ---- native apps 2019
-#682658836 GarageBand (10.3.2)
-#408981434 iMovie (10.1.10)
-#409201541 Pages (7.3)
-#409183694 Keynote (8.3)
-#409203825 Numbers (5.3)
-
-
+# --- Other ---
+# mas 'Clear', id: 504544917
+# mas 'Skitch', id: 425955336
 # mas 'Bitcoin Expert', id: 1237809495
-
-
-
 # mas 'Twitter', id: 409789998
 # mas 'iPhoto', id: 408981381
 # mas 'TurboTax 2015', id: 1061844571
 # mas 'LastPass', id: 926036361
 # mas 'Aperture', id: 408981426
-
-
 # mas "Blackmagic Disk Speed Test", id: 425264550
 # mas "CARROT Weather", id: 993487541
 # mas "CCMenu", id: 603117688
@@ -149,7 +147,6 @@ mas 'Todoist', id: 585829637
 
 
 # ***  Examples ***
-
 # tap 'telemachus/brew', 'https://telemachus@bitbucket.org/telemachus/brew.git'
 # brew 'imagemagick'
 # brew 'mysql', restart_service: true, conflicts_with: ['homebrew/versions/mysql56']
@@ -161,19 +158,7 @@ mas 'Todoist', id: 585829637
 
 # Homebrew Services
 # Integrates Homebrew formulae with macOS' launchctl manager.
-# 
-# Azure Pipelines
-# 
-# Requirements
-# Homebrew is used for installing the services.
-# 
-# This does not work with Linuxbrew (so don't file Linux issues, please).
-# 
-# Install
-# brew services is automatically installed when run.
-# 
-# Usage
-# ==Start==
+# -------------------------
 
 # Start the MySQL service at login with:
 # brew services start mysql
@@ -183,23 +168,3 @@ mas 'Todoist', id: 585829637
 
 # Start all available services with:
 # brew services start --all
-
-# ==Run==
-# Run the MySQL service but don't start it at login (nor boot) with:
-# brew services run mysql
-# 
-# Stop
-# Stop the MySQL service with:
-# brew services stop mysql
-# 
-# Restart
-# Restart the MySQL service with:
-# brew services restart mysql
-#
-# List
-# List all services managed by brew services with:
-# brew services list
-#
-# Cleanup
-# Remove all unused services with:
-# brew services cleanup
