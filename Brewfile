@@ -114,7 +114,7 @@ cask 'font-input'
 brew 'mas'
 # -------------------------
 mas 'Microsoft Remote Desktop', id: 1295203466
-mas 'Xcode', id: 497799835
+# mas 'Xcode', id: 497799835
 mas 'Slack', id: 803453959
 mas 'Evernote', id: 406056744
 mas 'Todoist', id: 585829637
