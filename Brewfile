@@ -15,16 +15,19 @@ brew 'gpm'
 brew 'openssl'
 brew 'shellcheck'
 brew 'ssh-copy-id'
-brew 'lastpass-cli', args: ['with-pinentry', 'with-doc']
+# brew 'lastpass-cli', args: ['with-pinentry', 'with-doc']
 brew 'tree'
 brew 'vault'
 brew 'wget', args: ['with-iri']
 brew 'grep' #, args: ['with-default-names']
-brew 'zsh'
-brew 'zsh-completions'
 brew 'wrk'
 brew 'upx'
 brew 'telnet'
+
+# ZSH Stuff
+brew 'zsh'
+brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
