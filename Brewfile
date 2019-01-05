@@ -12,7 +12,6 @@ brew 'mackup'
 brew 'n'
 brew 'jq'
 brew 'gpm'
-brew 'openssl'
 brew 'shellcheck'
 brew 'ssh-copy-id'
 # brew 'lastpass-cli', args: ['with-pinentry', 'with-doc']
@@ -48,6 +47,13 @@ brew 'kubernetes-helm'
 # Python 
 brew 'python'
 brew 'pyenv'
+# optional, but recommended for pyenv
+# openssl is recommened no matter what
+brew 'openssl'
+brew 'readline'
+brew 'sqlite3'
+brew 'xz'
+brew 'zlib'
 
 # React
 brew 'yarn', args: ['without-node']
@@ -61,7 +67,10 @@ brew 'gdbm'
 brew 'pcre'
 brew 'libidn'
 
+#
 # install casks
+# 
+
 tap 'homebrew/cask'
 cask_args appdir: '/Applications'
 # -------------------------
