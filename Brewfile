@@ -45,8 +45,9 @@ brew 'go'
 brew 'kubectl'
 brew 'kubernetes-helm'
 
-# Python 3
+# Python 
 brew 'python'
+brew 'pyenv'
 
 # React
 brew 'yarn', args: ['without-node']
