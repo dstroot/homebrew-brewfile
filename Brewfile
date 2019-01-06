@@ -25,10 +25,6 @@ brew 'telnet'
 # ZSH Stuff
 brew 'zsh'
 brew 'zsh-completions'
-brew 'zsh-syntax-highlighting'
-# https://github.com/bhilburn/powerlevel9k
-tap 'sambadevi/powerlevel9k'
-brew 'powerlevel9k'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
