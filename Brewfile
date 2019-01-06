@@ -14,7 +14,6 @@ brew 'jq'
 brew 'gpm'
 brew 'shellcheck'
 brew 'ssh-copy-id'
-# brew 'lastpass-cli', args: ['with-pinentry', 'with-doc']
 brew 'tree'
 brew 'vault'
 brew 'wget', args: ['with-iri']
@@ -27,6 +26,9 @@ brew 'telnet'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
+# https://github.com/bhilburn/powerlevel9k
+tap 'sambadevi/powerlevel9k'
+brew 'powerlevel9k'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
@@ -47,8 +49,9 @@ brew 'kubernetes-helm'
 # Python 
 brew 'python'
 brew 'pyenv'
+brew 'pyenv-virtualenv'
 # optional, but recommended for pyenv
-# openssl is recommened no matter what
+# NOTE: openssl is recommened no matter what
 brew 'openssl'
 brew 'readline'
 brew 'sqlite3'
@@ -59,6 +62,7 @@ brew 'zlib'
 brew 'yarn', args: ['without-node']
 # Watchman is a tool by Facebook for watching changes in the filesystem.
 brew 'watchman'
+
 # secure ssh
 brew 'kryptco/tap/kr'
 
