@@ -1,12 +1,15 @@
+# doctor, args: ['brew doctor --list-checks | grep -v -e "check_for_stray_headers"']
+# update
+
+
 # homebrew apps
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'go-delve/delve'
 tap 'kryptco/tap'
-# -------------------------
+
 brew 'bash-completion'
 brew 'git'
-
 brew 'hugo'
 brew 'mackup'
 brew 'n'
@@ -16,6 +19,7 @@ brew 'shellcheck'
 brew 'ssh-copy-id'
 brew 'tree'
 brew 'vault'
+brew 'openssl'
 brew 'wget', args: ['with-iri']
 brew 'grep' #, args: ['with-default-names']
 brew 'wrk'
@@ -44,15 +48,6 @@ brew 'kubernetes-helm'
 
 # Python 
 brew 'python'
-brew 'pyenv'
-brew 'pyenv-virtualenv'
-# optional, but recommended for pyenv
-# NOTE: openssl is recommened no matter what
-brew 'openssl'
-brew 'readline'
-brew 'sqlite3'
-brew 'xz'
-brew 'zlib'
 
 # React
 brew 'yarn', args: ['without-node']
