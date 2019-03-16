@@ -50,7 +50,7 @@ brew 'kubernetes-helm'
 brew 'python'
 
 # React
-brew 'yarn', args: ['without-node']
+brew 'yarn', args: ['ignore-dependencies']
 # Watchman is a tool by Facebook for watching changes in the filesystem.
 brew 'watchman'
 
