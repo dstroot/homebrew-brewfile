@@ -1,8 +1,4 @@
-# doctor, args: ['brew doctor --list-checks | grep -v -e "check_for_stray_headers"']
-# update
-
-
-# homebrew apps
+# homebrew taps
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'go-delve/delve'
@@ -11,6 +7,7 @@ tap 'kryptco/tap'
 # Python - used by mackup and watchman
 brew 'python'
 
+# apps
 brew 'bash-completion'
 brew 'git'
 brew 'hugo'
