@@ -8,6 +8,9 @@ tap 'homebrew/core'
 tap 'go-delve/delve'
 tap 'kryptco/tap'
 
+# Python - used by mackup and watchman
+brew 'python'
+
 brew 'bash-completion'
 brew 'git'
 brew 'hugo'
@@ -45,9 +48,6 @@ brew 'gnu-which'#, args: ['with-default-names']
 brew 'go'
 brew 'kubectl'
 brew 'kubernetes-helm'
-
-# Python 
-brew 'python'
 
 # React
 brew 'yarn', args: ['ignore-dependencies']
