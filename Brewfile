@@ -4,6 +4,10 @@ tap 'homebrew/core'
 tap 'go-delve/delve'
 tap 'kryptco/tap'
 
+# Heroku CLI
+tap 'heroku/brew'
+brew 'heroku'
+
 # Python - used by mackup and watchman
 brew 'python'
 
