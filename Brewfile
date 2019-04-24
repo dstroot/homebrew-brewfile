@@ -11,6 +11,11 @@ brew 'heroku'
 # Python - used by mackup and watchman
 brew 'python'
 
+# Updated ruby (https://jekyllrb.com/docs/installation/macos/)
+# Don’t forget to add the brew ruby path to your shell config:
+#  export PATH=/usr/local/opt/ruby/bin:$PATH
+brew 'ruby'
+
 # apps
 brew 'bash-completion'
 brew 'git'
