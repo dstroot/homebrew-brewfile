@@ -33,6 +33,10 @@ brew 'wrk'
 brew 'upx'
 brew 'telnet'
 
+# netlify
+tap 'netlify/netlifyctl'
+brew 'netlifyctl'
+
 # ZSH Stuff
 brew 'zsh'
 brew 'zsh-completions'
