@@ -103,7 +103,7 @@ cask 'spotify'
 cask 'insomnia'
 
 # minikube uses virtualbox so it must be first
-cask 'virtualbox' 
+# cask 'virtualbox' 
 cask 'minikube'
 
 # SQL tool
