@@ -134,14 +134,16 @@ mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'Slack', id: 803453959
 mas 'Evernote', id: 406056744
 mas 'Todoist', id: 585829637
+mas 'LastPass', id: 926036361
 
 # ---  Office 365  ---
-mas "Microsoft Excel", id:462058435 
-mas "Microsoft PowerPoint", id:462062816 
-mas "Microsoft Outlook", id:985367838 
-mas "Microsoft OneNote", id:784801555 
-mas "Microsoft Word", id:462054704 
-mas "OneDrive", id:823766827 
+mas 'Microsoft Excel', id: 462058435 
+mas 'Microsoft PowerPoint', id: 462062816 
+mas 'Microsoft Outlook', id: 985367838 
+mas 'Microsoft OneNote', id: 784801555 
+mas 'Microsoft Word', id: 462054704 
+mas 'OneDrive', id: 823766827 
+mas 'Microsoft To-Do', id: 1274495053
 
 
 # --- native apps 2019 ---
