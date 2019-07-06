@@ -70,6 +70,11 @@ brew 'gdbm'
 brew 'pcre'
 brew 'libidn'
 
+# Pilosa Console
+# https://www.pilosa.com
+tap 'pilosa/homebrew-pilosa'
+brew 'pilosa-console'
+
 #
 # install casks
 # 
