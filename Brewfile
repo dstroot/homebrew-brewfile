@@ -27,8 +27,8 @@ brew 'ssh-copy-id'
 brew 'tree'
 brew 'vault'
 brew 'openssl'
-brew 'wget', args: ['with-iri']
-brew 'grep' #, args: ['with-default-names']
+brew 'wget'
+brew 'grep'
 brew 'wrk'
 brew 'upx'
 brew 'telnet'
@@ -58,7 +58,7 @@ brew 'kubectl'
 brew 'kubernetes-helm'
 
 # React
-brew 'yarn', args: ['ignore-dependencies']
+brew 'yarn'
 # Watchman is a tool by Facebook for watching changes in the filesystem.
 brew 'watchman'
 
@@ -72,8 +72,8 @@ brew 'libidn'
 
 # Pilosa Console
 # https://www.pilosa.com
-tap 'pilosa/homebrew-pilosa'
-brew 'pilosa-console'
+# tap 'pilosa/homebrew-pilosa'
+# brew 'pilosa-console'
 
 #
 # install casks
@@ -92,11 +92,11 @@ cask 'iterm2'
 cask 'hyper'
 cask 'keepingyouawake'
 cask 'ngrok'
-cask 'slack'
 cask 'spectacle'
 cask 'spotify'
 
 # --- Other ---
+# cask 'slack'
 # cask 'cheatsheet'
 # cask 'filezilla'
 # cask 'handbrake'
