@@ -58,7 +58,7 @@ brew 'kubectl'
 brew 'kubernetes-helm'
 
 # React
-brew 'yarn'
+# brew 'yarn'
 # Watchman is a tool by Facebook for watching changes in the filesystem.
 brew 'watchman'
 
