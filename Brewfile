@@ -28,11 +28,7 @@ brew 'tree'
 brew 'vault'
 brew 'openssl'
 brew 'wget'
-<<<<<<< HEAD
-brew 'grep' 
-=======
 brew 'grep'
->>>>>>> 6d267bd873674a747341aef82e5dab810efd031a
 brew 'wrk'
 brew 'upx'
 brew 'telnet'
