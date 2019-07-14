@@ -27,8 +27,8 @@ brew 'ssh-copy-id'
 brew 'tree'
 brew 'vault'
 brew 'openssl'
-brew 'wget', args: ['with-iri']
-brew 'grep' #, args: ['with-default-names']
+brew 'wget'
+brew 'grep' 
 brew 'wrk'
 brew 'upx'
 brew 'telnet'
@@ -82,7 +82,6 @@ brew 'pilosa-console'
 tap 'homebrew/cask'
 cask_args appdir: '/Applications'
 # -------------------------
-cask 'atom'
 cask 'visual-studio-code'
 cask 'github'
 cask 'google-chrome'
@@ -92,17 +91,18 @@ cask 'iterm2'
 cask 'hyper'
 cask 'keepingyouawake'
 cask 'ngrok'
-cask 'slack'
 cask 'spectacle'
 cask 'spotify'
 
 # --- Other ---
+# cask 'atom'
 # cask 'cheatsheet'
 # cask 'filezilla'
 # cask 'handbrake'
 # cask 'keybase'
 # cask 'telegram'
 # cask 'sketch'
+# cask 'slack'
 
 # API tool
 cask 'insomnia'
