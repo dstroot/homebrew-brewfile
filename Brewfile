@@ -108,11 +108,11 @@ cask 'spotify'
 cask 'insomnia'
 
 # minikube uses virtualbox so it must be first
-cask 'virtualbox' 
-cask 'minikube'
+# cask 'virtualbox' 
+# cask 'minikube'
 
-# SQL tool
-cask 'popsql'
+# # SQL tool
+# cask 'popsql'
 
 # https://github.com/buo/homebrew-cask-upgrade
 # brew-cask-upgrade is a command-line tool for upgrading every 
@@ -122,12 +122,12 @@ tap 'buo/cask-upgrade'
 # install fonts
 tap 'homebrew/cask-fonts'
 # --------------------------
-cask 'font-hack'
-cask 'font-hasklig'
-cask 'font-monoid'
+# cask 'font-hack'
+# cask 'font-hasklig'
+# cask 'font-monoid'
 cask 'font-source-code-pro'
-cask 'font-iosevka'
-cask 'font-input'
+# cask 'font-iosevka'
+# cask 'font-input'
 
 # install app store apps
 # https://github.com/mas-cli/mas
