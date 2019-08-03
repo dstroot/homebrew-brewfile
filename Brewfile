@@ -37,6 +37,10 @@ brew 'telnet'
 tap 'netlify/netlifyctl'
 brew 'netlifyctl'
 
+# hygen templates
+tap 'jondot/tap'
+brew  'hygen'
+
 # ZSH Stuff
 brew 'zsh'
 brew 'zsh-completions'
