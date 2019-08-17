@@ -101,7 +101,8 @@ cask 'spotify'
 
 # inkscape
 cask 'xquartz'
-cask 'inkscape'
+# cask 'inkscape'
+brew 'caskformula/caskformula/inkscape'
 
 # API tool
 cask 'insomnia'
