@@ -99,6 +99,13 @@ cask 'ngrok'
 cask 'spectacle'
 cask 'spotify'
 
+# inkscape
+cask 'xquartz'
+cask 'inkscape'
+
+# API tool
+cask 'insomnia'
+
 # --- Other ---
 # cask 'slack'
 # cask 'cheatsheet'
@@ -107,10 +114,6 @@ cask 'spotify'
 # cask 'keybase'
 # cask 'telegram'
 # cask 'sketch'
-# cask 'slack'
-
-# API tool
-cask 'insomnia'
 
 # minikube uses virtualbox so it must be first
 # cask 'virtualbox' 
