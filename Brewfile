@@ -100,8 +100,8 @@ cask 'spectacle'
 cask 'spotify'
 
 # inkscape
-cask 'xquartz'
-cask 'inkscape'
+# cask 'xquartz'
+# cask 'inkscape'
 
 # API tool
 cask 'insomnia'
