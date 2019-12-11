@@ -33,6 +33,7 @@ brew 'grep'
 brew 'wrk'
 brew 'upx'
 brew 'telnet'
+brew 'asciinema'
 
 # netlify
 tap 'netlify/netlifyctl'
