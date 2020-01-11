@@ -34,6 +34,7 @@ brew 'wrk'
 brew 'upx'
 brew 'telnet'
 brew 'asciinema'
+brew 'broot'
 
 # netlify
 tap 'netlify/netlifyctl'
