@@ -142,7 +142,7 @@ tap 'homebrew/cask-fonts'
 cask 'font-source-code-pro'
 # cask 'font-iosevka'
 # cask 'font-input'
-cask 'font-jetbrains-mono'
+# cask 'font-jetbrains-mono'
 
 # install app store apps
 # https://github.com/mas-cli/mas
