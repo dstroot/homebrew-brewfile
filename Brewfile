@@ -40,9 +40,6 @@ brew 'broot'
 tap 'netlify/netlifyctl'
 brew 'netlifyctl'
 
-# Cloudflare
-brew 'wrangler'
-
 # hygen templates
 tap 'jondot/tap'
 brew  'hygen'
