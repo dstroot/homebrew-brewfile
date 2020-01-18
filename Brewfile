@@ -40,6 +40,9 @@ brew 'broot'
 tap 'netlify/netlifyctl'
 brew 'netlifyctl'
 
+# Cloudflare
+brew 'wrangler'
+
 # hygen templates
 tap 'jondot/tap'
 brew  'hygen'
@@ -139,6 +142,7 @@ tap 'homebrew/cask-fonts'
 cask 'font-source-code-pro'
 # cask 'font-iosevka'
 # cask 'font-input'
+cask 'font-jetbrains-mono'
 
 # install app store apps
 # https://github.com/mas-cli/mas
