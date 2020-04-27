@@ -122,8 +122,9 @@ cask 'insomnia'
 # cask 'virtualbox' 
 # cask 'minikube'
 
-# # SQL tool
+# SQL tool
 # cask 'popsql'
+cask 'tableplus'
 
 # https://github.com/buo/homebrew-cask-upgrade
 # brew-cask-upgrade is a command-line tool for upgrading every 
