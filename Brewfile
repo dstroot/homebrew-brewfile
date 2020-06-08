@@ -10,7 +10,7 @@ tap 'kryptco/tap'
 
 # Python - used by mackup and watchman
 brew 'python'
-brew 'python@2'
+# brew 'python@2' # python@2 no longer exists
 
 # Updated ruby (https://jekyllrb.com/docs/installation/macos/)
 brew 'ruby'
