@@ -109,6 +109,9 @@ cask 'spotify'
 # API tool
 cask 'insomnia'
 
+# Note taking
+cask 'obsidian'
+
 # --- Other ---
 # cask 'slack'
 # cask 'cheatsheet'
