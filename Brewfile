@@ -36,6 +36,9 @@ brew 'telnet'
 brew 'asciinema'
 brew 'broot'
 
+# Deno
+brew 'deno'
+
 # netlify
 tap 'netlify/netlifyctl'
 brew 'netlifyctl'
