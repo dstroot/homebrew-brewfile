@@ -145,12 +145,12 @@ tap 'buo/cask-upgrade'
 tap 'homebrew/cask-fonts'
 # --------------------------
 # cask 'font-hack'
-# cask 'font-hasklig'
+cask 'font-hasklig'
 # cask 'font-monoid'
 cask 'font-source-code-pro'
 # cask 'font-iosevka'
-# cask 'font-input'
-# cask 'font-jetbrains-mono'
+cask 'font-input'
+cask 'font-jetbrains-mono'
 
 # install app store apps
 # https://github.com/mas-cli/mas
