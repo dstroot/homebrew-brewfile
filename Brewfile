@@ -119,6 +119,9 @@ cask 'insomnia'
 # Note taking
 cask 'obsidian'
 
+# broadcasting
+cask 'obs'
+
 # --- Other ---
 # cask 'slack'
 # cask 'cheatsheet'
