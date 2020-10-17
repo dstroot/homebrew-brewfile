@@ -123,6 +123,7 @@ cask 'obsidian'
 cask 'zoomus'
 cask 'obs'
 cask 'obs-virtualcam'
+cask 'vlc'
 
 # --- Other ---
 # cask 'slack'
