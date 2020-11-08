@@ -124,6 +124,7 @@ cask 'zoomus'
 cask 'obs'
 cask 'obs-virtualcam'
 cask 'vlc'
+cask 'vb-cable'  
 
 # --- Other ---
 # cask 'slack'
