@@ -122,9 +122,9 @@ cask 'obsidian'
 # broadcasting
 cask 'zoomus'
 cask 'obs'
-cask 'obs-virtualcam'
+# cask 'obs-virtualcam'
 cask 'vlc'
-cask 'vb-cable'  
+# cask 'vb-cable'  
 
 # --- Other ---
 # cask 'slack'
