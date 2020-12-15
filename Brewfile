@@ -120,7 +120,7 @@ cask 'insomnia'
 cask 'obsidian'
 
 # broadcasting
-cask 'zoomus'
+cask 'zoom'
 cask 'obs'
 # cask 'obs-virtualcam'
 cask 'vlc'
