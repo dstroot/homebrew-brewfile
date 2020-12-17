@@ -37,7 +37,7 @@ brew 'asciinema'
 brew 'broot'
 
 # Deno
-brew 'deno'
+# brew 'deno'
 
 # AWS Serverless CLI (https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html)
 tap 'aws/tap'
@@ -47,7 +47,7 @@ brew 'aws-sam-cli'
 tap 'netlify/netlifyctl'
 brew 'netlifyctl'
 
-# hygen templates
+# hygen templates  https://github.com/jondot/hygen
 tap 'jondot/tap'
 brew  'hygen'
 
@@ -84,8 +84,7 @@ brew 'gdbm'
 brew 'pcre'
 brew 'libidn'
 
-# Pilosa Console
-# https://www.pilosa.com
+# Pilosa Console https://www.pilosa.com
 # tap 'pilosa/homebrew-pilosa'
 # brew 'pilosa-console'
 
