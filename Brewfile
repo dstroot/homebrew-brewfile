@@ -1,3 +1,5 @@
+# https://github.com/Homebrew/homebrew-bundle
+
 # homebrew taps
 tap 'homebrew/bundle'
 tap 'homebrew/core'
@@ -10,7 +12,6 @@ tap 'kryptco/tap'
 
 # Python - used by mackup and watchman
 brew 'python'
-# brew 'python@2' # python@2 no longer exists
 
 # Updated ruby (https://jekyllrb.com/docs/installation/macos/)
 brew 'ruby'
@@ -93,7 +94,8 @@ brew 'libidn'
 # 
 
 tap 'homebrew/cask'
-cask_args appdir: '/Applications'
+cask_args appdir: '/Applications', require_sha: true
+
 # -------------------------
 cask 'visual-studio-code'
 cask 'github'
@@ -124,6 +126,9 @@ cask 'obs'
 # cask 'obs-virtualcam'
 cask 'vlc'
 # cask 'vb-cable'  
+
+# Barrier KVM https://github.com/debauchee/barrier
+# cask 'barrier'
 
 # --- Other ---
 # cask 'slack'
