@@ -36,6 +36,7 @@ brew 'upx'
 brew 'telnet'
 brew 'asciinema'
 brew 'broot'
+brew 'sqlite'
 
 # Deno
 # brew 'deno'
@@ -123,7 +124,6 @@ cask 'obsidian'
 # broadcasting
 cask 'zoom'
 cask 'obs'
-# cask 'obs-virtualcam'
 cask 'vlc'
 # cask 'vb-cable'  
 
@@ -143,8 +143,10 @@ cask 'vlc'
 # cask 'virtualbox' 
 # cask 'minikube'
 
-# SQL tool
+# SQL tools
 # cask 'popsql'
+tap 'benbjohnson/litestream'
+brew 'litestream'
 cask 'tableplus'
 
 # https://github.com/buo/homebrew-cask-upgrade
