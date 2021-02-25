@@ -43,7 +43,7 @@ brew 'sqlite'
 
 # AWS Serverless CLI (https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html)
 tap 'aws/tap'
-brew 'aws-sam-cli'
+# brew 'aws-sam-cli'
 
 # netlify
 tap 'netlify/netlifyctl'
