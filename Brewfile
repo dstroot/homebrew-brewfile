@@ -90,6 +90,8 @@ brew 'libidn'
 # tap 'pilosa/homebrew-pilosa'
 # brew 'pilosa-console'
 
+brew 'smartmontools'
+
 #
 # install casks
 # 
