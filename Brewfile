@@ -85,6 +85,7 @@ brew 'kryptco/tap/kr'
 brew 'gdbm'
 brew 'pcre'
 brew 'libidn'
+brew 'svn'
 
 # Pilosa Console https://www.pilosa.com
 # tap 'pilosa/homebrew-pilosa'
