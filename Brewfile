@@ -155,6 +155,9 @@ cask 'tableplus'
 # Dynamodb
 cask 'nosql-workbench'
 
+# Raindrop bookmark manager
+cask 'raindropio'
+
 # https://github.com/buo/homebrew-cask-upgrade
 # brew-cask-upgrade is a command-line tool for upgrading every 
 # outdated app installed by Homebrew Cask.
