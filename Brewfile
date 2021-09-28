@@ -93,6 +93,10 @@ brew 'svn'
 
 brew 'smartmontools'
 
+# stripe CLI https://stripe.com/docs/stripe-cli#install
+tap 'stripe/stripe-cli'
+brew 'stripe'
+
 #
 # install casks
 # 
