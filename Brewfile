@@ -13,6 +13,9 @@ tap 'kryptco/tap'
 # Python - used by mackup and watchman
 brew 'python'
 
+# rust
+brew 'rustup-init'
+
 # Updated ruby (https://jekyllrb.com/docs/installation/macos/)
 brew 'ruby'
 
