@@ -41,6 +41,9 @@ brew 'asciinema'
 brew 'broot'
 brew 'sqlite'
 
+# https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
+brew 'fzf' 
+
 # Deno
 # brew 'deno'
 
