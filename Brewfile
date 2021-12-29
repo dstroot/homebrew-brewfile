@@ -78,7 +78,7 @@ brew 'gnu-which'#, args: ['with-default-names']
 # Go Stuff
 brew 'go'
 brew 'kubectl'
-brew 'kubernetes-helm'
+brew 'helm'
 
 # React
 # brew 'yarn'
