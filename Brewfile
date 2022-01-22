@@ -88,6 +88,9 @@ brew 'watchman'
 # secure ssh
 brew 'kryptco/tap/kr'
 
+# Fly.io free postgres DB
+brew 'superfly/tap/flyctl'
+
 # dependencies
 brew 'gdbm'
 brew 'pcre'
