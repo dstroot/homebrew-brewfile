@@ -90,6 +90,7 @@ brew 'kryptco/tap/kr'
 
 # Fly.io free postgres DB
 brew 'superfly/tap/flyctl'
+brew 'libpq'
 
 # dependencies
 brew 'gdbm'
