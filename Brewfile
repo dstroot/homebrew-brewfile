@@ -22,7 +22,7 @@ brew 'ruby'
 # apps
 brew 'bash-completion'
 brew 'git'
-brew 'hugo'
+# brew 'hugo'
 brew 'mackup'
 # brew 'n'
 brew 'jq'
@@ -88,9 +88,8 @@ brew 'watchman'
 # secure ssh
 brew 'kryptco/tap/kr'
 
-# Fly.io free postgres DB
-brew 'superfly/tap/flyctl'
-brew 'libpq'
+# Postgres DB
+brew 'postgresql'
 
 # dependencies
 brew 'gdbm'
@@ -163,8 +162,8 @@ cask 'vlc'
 
 # SQL tools
 # cask 'popsql'
-tap 'benbjohnson/litestream'
-brew 'litestream'
+# tap 'benbjohnson/litestream'
+# brew 'litestream'
 cask 'tableplus'
 
 # Dynamodb
