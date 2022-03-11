@@ -91,6 +91,9 @@ brew 'kryptco/tap/kr'
 # Postgres DB
 brew 'postgresql'
 
+# Redis
+brew 'redis'
+
 # dependencies
 brew 'gdbm'
 brew 'pcre'
