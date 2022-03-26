@@ -30,12 +30,15 @@ brew 'gpm'
 brew 'shellcheck'
 brew 'ssh-copy-id'
 brew 'tree'
-brew 'vault'
+# brew 'vault'
 brew 'openssl'
 brew 'wget'
 brew 'grep'
 brew 'wrk'
-brew 'upx'
+
+# https://upx.github.io/
+# brew 'upx'
+
 brew 'telnet'
 brew 'asciinema'
 brew 'broot'
@@ -86,7 +89,7 @@ brew 'helm'
 brew 'watchman'
 
 # secure ssh
-brew 'kryptco/tap/kr'
+# brew 'kryptco/tap/kr'
 
 # Postgres DB
 brew 'postgresql'
@@ -122,14 +125,14 @@ cask 'visual-studio-code'
 cask 'github'
 cask 'google-chrome'
 cask 'firefox'
-cask 'google-cloud-sdk'
+# cask 'google-cloud-sdk'
 cask 'kitematic'
 cask 'iterm2'
-cask 'hyper'
+# cask 'hyper'
 cask 'keepingyouawake'
-cask 'ngrok'
+# cask 'ngrok'
 cask 'spectacle'
-cask 'spotify'
+# cask 'spotify'
 
 # inkscape
 # cask 'xquartz'
@@ -186,11 +189,11 @@ tap 'homebrew/cask-fonts'
 # cask 'font-hack'
 cask 'font-hasklig'
 # cask 'font-monoid'
-cask 'font-source-code-pro'
+# cask 'font-source-code-pro'
 # cask 'font-iosevka'
-cask 'font-input'
-cask 'font-jetbrains-mono'
-cask 'font-jetbrains-mono-nerd-font'
+# cask 'font-input'
+# cask 'font-jetbrains-mono'
+# cask 'font-jetbrains-mono-nerd-font'
 
 # install app store apps
 # https://github.com/mas-cli/mas
@@ -236,9 +239,7 @@ mas 'Microsoft To-Do', id: 1274495053
 # mas "DrCleaner", id: 921458519
 # mas "Frame.io", id: 992958444
 # mas "Magnet", id: 441258766
-# mas "QuickBooks", id: 640830064
-# mas "WiFi Explorer", id: 494803304
-# mas "WiFi Signal", id: 525912054
+#
 
 
 # ***  Examples ***
