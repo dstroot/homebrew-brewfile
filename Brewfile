@@ -123,7 +123,7 @@ cask_args appdir: '/Applications', require_sha: true
 # -------------------------
 cask 'visual-studio-code'
 cask 'github'
-cask 'google-chrome'
+# cask 'google-chrome'
 cask 'firefox'
 # cask 'google-cloud-sdk'
 cask 'kitematic'
