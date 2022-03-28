@@ -1,10 +1,11 @@
+#####################################################
+# Homebrew Bundle
 # https://github.com/Homebrew/homebrew-bundle
+#####################################################
 
 # homebrew taps
 tap 'homebrew/bundle'
 tap 'homebrew/core'
-tap 'go-delve/delve'
-tap 'kryptco/tap'
 
 # Heroku CLI
 #tap 'heroku/brew'
@@ -14,7 +15,7 @@ tap 'kryptco/tap'
 brew 'python'
 
 # Rust  
-brew 'rustup-init'
+# brew 'rustup-init'
 
 # Updated Ruby (https://jekyllrb.com/docs/installation/macos/)
 brew 'ruby'
@@ -22,30 +23,24 @@ brew 'ruby'
 # apps
 brew 'bash-completion'
 brew 'git'
-# brew 'hugo'
 brew 'mackup'
-# brew 'n'
 brew 'jq'
 brew 'gpm'
 brew 'shellcheck'
 brew 'ssh-copy-id'
 brew 'tree'
-# brew 'vault'
 brew 'openssl'
 brew 'wget'
 brew 'grep'
 brew 'wrk'
+brew 'telnet'
+brew 'asciinema'
 
 # https://upx.github.io/
 # brew 'upx'
 
-brew 'telnet'
-brew 'asciinema'
-# brew 'broot'
-
-
 # https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
-brew 'fzf' 
+# brew 'fzf' 
 
 # Deno
 # brew 'deno'
@@ -78,6 +73,7 @@ brew 'gnu-tar'#, args: ['with-default-names']
 brew 'gnu-which'#, args: ['with-default-names']
 
 # Go Stuff
+# tap 'go-delve/delve'
 brew 'go'
 brew 'kubectl'
 brew 'helm'
@@ -86,9 +82,6 @@ brew 'helm'
 # brew 'yarn'
 # Watchman is a tool by Facebook for watching changes in the filesystem.
 brew 'watchman'
-
-# secure ssh
-# brew 'kryptco/tap/kr'
 
 # Databases
 brew 'postgresql'
@@ -111,10 +104,13 @@ brew 'smartmontools'
 # tap 'stripe/stripe-cli'
 # brew 'stripe'
 
-#
-# install casks
-# 
 
+
+
+
+#####################################################
+# Casks
+#####################################################
 tap 'homebrew/cask'
 cask_args appdir: "~/Applications", require_sha: true
 
@@ -193,17 +189,24 @@ cask 'font-hasklig'
 # cask 'font-jetbrains-mono'
 # cask 'font-jetbrains-mono-nerd-font'
 
-# install app store apps
+
+
+
+#####################################################
+# Whalebrew
+# https://github.com/whalebrew/whalebrew
+#####################################################
+# brew 'whalebrew'
+# whalebrew 'whalebrew/wget'
+
+
+
+
+#####################################################
+# Mas Apps (Mac App Store)
 # https://github.com/mas-cli/mas
-# -------------------------
+#####################################################
 brew 'mas'
-# -------------------------
-mas 'Microsoft Remote Desktop', id: 1295203466
-# mas 'Xcode', id: 497799835
-mas 'Slack', id: 803453959
-mas 'Evernote', id: 406056744
-mas 'Todoist', id: 585829637
-mas 'LastPass', id: 926036361
 
 # ---  Office 365  ---
 mas 'Microsoft Excel', id: 462058435 
@@ -214,8 +217,15 @@ mas 'Microsoft Word', id: 462054704
 mas 'OneDrive', id: 823766827 
 mas 'Microsoft To-Do', id: 1274495053
 
+# -----  Other  ------
+mas 'Microsoft Remote Desktop', id: 1295203466
+# mas 'Xcode', id: 497799835
+# mas 'Slack', id: 803453959
+mas 'Evernote', id: 406056744
+# mas 'Todoist', id: 585829637
+# mas 'LastPass', id: 926036361
 
-# --- native apps 2019 ---
+# --- Native Apps ---
 # mas 'GarageBand', id: 682658836
 # mas 'iMovie', id: 408981434
 # mas 'Pages', id: 409201541
@@ -237,10 +247,15 @@ mas 'Microsoft To-Do', id: 1274495053
 # mas "DrCleaner", id: 921458519
 # mas "Frame.io", id: 992958444
 # mas "Magnet", id: 441258766
-#
 
 
-# ***  Examples ***
+
+
+
+#####################################################
+# Examples
+#####################################################
+
 # tap 'telemachus/brew', 'https://telemachus@bitbucket.org/telemachus/brew.git'
 # brew 'imagemagick'
 # brew 'mysql', restart_service: true, conflicts_with: ['homebrew/versions/mysql56']
