@@ -16,7 +16,7 @@ brew 'python'
 # Rust  
 brew 'rustup-init'
 
-# Updated ruby (https://jekyllrb.com/docs/installation/macos/)
+# Updated Ruby (https://jekyllrb.com/docs/installation/macos/)
 brew 'ruby'
 
 # apps
@@ -41,18 +41,17 @@ brew 'wrk'
 
 brew 'telnet'
 brew 'asciinema'
-brew 'broot'
-brew 'sqlite'
+# brew 'broot'
+
 
 # https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh
-
 brew 'fzf' 
 
 # Deno
 # brew 'deno'
 
 # AWS Serverless CLI (https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html)
-tap 'aws/tap'
+# tap 'aws/tap'
 # brew 'aws-sam-cli'
 
 # netlify
@@ -91,11 +90,10 @@ brew 'watchman'
 # secure ssh
 # brew 'kryptco/tap/kr'
 
-# Postgres DB
+# Databases
 brew 'postgresql'
-
-# Redis
 brew 'redis'
+brew 'sqlite'
 
 # dependencies
 brew 'gdbm'
@@ -110,15 +108,15 @@ brew 'svn'
 brew 'smartmontools'
 
 # stripe CLI https://stripe.com/docs/stripe-cli#install
-tap 'stripe/stripe-cli'
-brew 'stripe'
+# tap 'stripe/stripe-cli'
+# brew 'stripe'
 
 #
 # install casks
 # 
 
 tap 'homebrew/cask'
-cask_args appdir: '/Applications', require_sha: false
+cask_args appdir: "~/Applications", require_sha: true
 
 # -------------------------
 cask 'visual-studio-code'
