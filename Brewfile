@@ -208,46 +208,36 @@ cask 'font-hasklig'
 #####################################################
 brew 'mas'
 
-# ---  Office 365  ---
-mas 'Microsoft Excel', id: 462058435 
-mas 'Microsoft PowerPoint', id: 462062816 
-mas 'Microsoft Outlook', id: 985367838 
-mas 'Microsoft OneNote', id: 784801555 
-mas 'Microsoft Word', id: 462054704 
-mas 'OneDrive', id: 823766827 
-mas 'Microsoft To-Do', id: 1274495053
-
-# -----  Other  ------
+# ---- Microsoft ----
+mas 'OneDrive', id: 823766827
+mas 'Microsoft Excel', id: 462058435
 mas 'Microsoft Remote Desktop', id: 1295203466
-# mas 'Xcode', id: 497799835
-# mas 'Slack', id: 803453959
+mas 'Microsoft To Do', id: 1274495053
+mas 'Microsoft OneNote', id: 784801555
+mas 'Microsoft Outlook', id: 985367838
+mas 'Microsoft Word', id: 462054704
+mas 'Microsoft PowerPoint', id: 462062816
+
+# ----- Other -----
+mas 'Drafts', id: 1435957248
+mas 'Craft', id: 1487937127
 mas 'Evernote', id: 406056744
-# mas 'Todoist', id: 585829637
-# mas 'LastPass', id: 926036361
+mas 'Unsplash Wallpapers', id: 1284863847
+mas 'Things', id: 904280696
+mas 'Slack', id: 803453959
+mas 'Todoist', id: 585829637
+mas 'Disk Speed Test', id: 425264550
+mas 'iMovie', id: 408981434
+mas 'LastPass', id: 926036361
+mas 'Tailscale', id: 1475387142
 
 # --- Native Apps ---
+# mas 'Xcode', id: 497799835
 # mas 'GarageBand', id: 682658836
 # mas 'iMovie', id: 408981434
 # mas 'Pages', id: 409201541
 # mas 'Keynote', id: 409183694
 # mas 'Numbers', id: 409203825
-
-# --- Other ---
-# mas 'Clear', id: 504544917
-# mas 'Skitch', id: 425955336
-# mas 'Bitcoin Expert', id: 1237809495
-# mas 'Twitter', id: 409789998
-# mas 'iPhoto', id: 408981381
-# mas 'TurboTax 2015', id: 1061844571
-# mas 'LastPass', id: 926036361
-# mas 'Aperture', id: 408981426
-# mas "Blackmagic Disk Speed Test", id: 425264550
-# mas "CARROT Weather", id: 993487541
-# mas "CCMenu", id: 603117688
-# mas "DrCleaner", id: 921458519
-# mas "Frame.io", id: 992958444
-# mas "Magnet", id: 441258766
-
 
 
 
