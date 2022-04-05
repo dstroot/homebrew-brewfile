@@ -87,6 +87,7 @@ brew 'watchman'
 brew 'postgresql'
 brew 'redis'
 brew 'sqlite'
+brew 'supabase/tap/supabase'
 
 # dependencies
 brew 'gdbm'
