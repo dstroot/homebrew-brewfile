@@ -127,6 +127,7 @@ cask 'iterm2'
 cask 'keepingyouawake'
 # cask 'ngrok'
 cask 'rectangle'
+cask 'numi'
 # cask 'spotify'
 
 # inkscape
