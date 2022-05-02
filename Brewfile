@@ -152,7 +152,9 @@ cask 'vlc'
 
 # --- Other ---
 # cask 'slack'
-# cask 'cheatsheet'
+cask 'cheatsheet'
+cask 'dropzone'
+cask 'monitorcontrol'
 # cask 'filezilla'
 # cask 'handbrake'
 # cask 'keybase'
