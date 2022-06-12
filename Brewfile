@@ -108,6 +108,9 @@ brew 'smartmontools'
 # brew 'stripe'
 
 
+# Video
+brew 'ffmpeg'
+brew 'mpv'
 
 
 
