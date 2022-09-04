@@ -84,7 +84,7 @@ brew 'helm'
 brew 'watchman'
 
 # Databases
-brew 'postgresql'
+brew 'postgresql@14'
 brew 'redis'
 brew 'sqlite'
 # Supabase
