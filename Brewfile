@@ -48,6 +48,7 @@ brew 'asciinema'
 # AWS Serverless CLI (https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install-mac.html)
 # tap 'aws/tap'
 # brew 'aws-sam-cli'
+brew 'awscli'
 
 # netlify
 tap 'netlify/netlifyctl'
@@ -87,6 +88,7 @@ brew 'watchman'
 brew 'postgresql@14'
 brew 'redis'
 brew 'sqlite'
+
 # Supabase
 tap 'supabase/tap'
 brew 'supabase'
@@ -107,12 +109,9 @@ brew 'smartmontools'
 # tap 'stripe/stripe-cli'
 # brew 'stripe'
 
-
 # Video
 brew 'ffmpeg'
 brew 'mpv'
-
-
 
 #####################################################
 # Casks
@@ -200,16 +199,12 @@ cask 'font-hasklig'
 # cask 'font-jetbrains-mono-nerd-font'
 
 
-
-
 #####################################################
 # Whalebrew
 # https://github.com/whalebrew/whalebrew
 #####################################################
 # brew 'whalebrew'
 # whalebrew 'whalebrew/wget'
-
-
 
 
 #####################################################
