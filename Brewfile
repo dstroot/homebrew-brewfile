@@ -177,6 +177,10 @@ cask 'monitorcontrol'
 # brew 'litestream'
 cask 'tableplus'
 
+# GitHub Credential Manager
+tap 'microsoft/git'
+cask 'git-credential-manager-core'
+
 # Dynamodb
 cask 'nosql-workbench'
 
