@@ -18,6 +18,9 @@ brew 'python'
 # Rust  
 # brew 'rustup-init'
 
+# Fly.io 
+brew 'flyctl'
+
 # Updated Ruby (https://jekyllrb.com/docs/installation/macos/)
 brew 'ruby'
 
