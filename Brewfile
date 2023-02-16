@@ -120,7 +120,7 @@ brew 'mpv'
 #####################################################
 # Casks
 #####################################################
-tap 'homebrew/cask'
+# tap 'homebrew/cask'
 cask_args appdir: "~/Applications", require_sha: true
 
 # -------------------------
