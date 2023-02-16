@@ -5,7 +5,7 @@
 
 # homebrew taps
 tap 'homebrew/bundle'
-tap 'homebrew/core'
+# tap 'homebrew/core'
 tap 'homebrew/services'
 
 # Heroku CLI
