@@ -89,7 +89,7 @@ brew 'helm'
 brew 'watchman'
 
 # Databases
-brew 'postgresql@14'
+brew 'postgresql@15'
 brew 'redis'
 brew 'sqlite'
 
@@ -162,7 +162,7 @@ cask 'vlc'
 # --- Other ---
 # cask 'slack'
 cask 'cheatsheet'
-cask 'dropzone'
+# cask 'dropzone'
 cask 'monitorcontrol'
 # cask 'filezilla'
 # cask 'handbrake'
