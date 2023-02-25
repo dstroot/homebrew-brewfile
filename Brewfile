@@ -179,6 +179,7 @@ cask 'monitorcontrol'
 # tap 'benbjohnson/litestream'
 # brew 'litestream'
 cask 'tableplus'
+cask 'beekeeper-studio'
 
 # GitHub Credential Manager
 tap 'microsoft/git'
