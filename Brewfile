@@ -14,6 +14,7 @@ tap 'homebrew/services'
 
 # Python - used by mackup and watchman
 brew 'python'
+brew 'pyenv'
 
 # Rust  
 # brew 'rustup-init'
@@ -116,6 +117,7 @@ brew 'smartmontools'
 # Video
 brew 'ffmpeg'
 brew 'mpv'
+
 
 #####################################################
 # Casks
