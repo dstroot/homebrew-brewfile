@@ -14,7 +14,9 @@ tap 'homebrew/services'
 
 # Python - used by mackup and watchman
 brew 'python'
-brew 'pyenv'
+# brew 'pyenv' # Don't install pyenv via homebrew and pyenv has interoperability issues
+# https://matt.sh/unify-python
+# https://towardsdatascience.com/homebrew-and-pyenv-python-playing-pleasantly-in-partnership-3a342d86319b
 
 # Rust  
 # brew 'rustup-init'
