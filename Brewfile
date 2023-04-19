@@ -63,7 +63,7 @@ brew 'netlifyctl'
 
 # hygen templates  https://github.com/jondot/hygen
 tap 'jondot/tap'
-brew  'hygen'
+brew 'hygen'
 
 # ZSH Stuff
 brew 'zsh'
@@ -168,6 +168,7 @@ cask 'vlc'
 cask 'cheatsheet'
 # cask 'dropzone'
 cask 'monitorcontrol'
+cask 'logi-options-plus'
 # cask 'filezilla'
 # cask 'handbrake'
 # cask 'keybase'
