@@ -125,7 +125,8 @@ brew 'mpv'
 # Casks
 #####################################################
 # tap 'homebrew/cask'
-cask_args appdir: "~/Applications", require_sha: true
+# cask_args appdir: "~/Applications", require_sha: true
+cask_args require_sha: true
 
 # -------------------------
 cask 'visual-studio-code'
