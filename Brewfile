@@ -8,10 +8,6 @@ tap 'homebrew/bundle'
 # tap 'homebrew/core'
 tap 'homebrew/services'
 
-# Heroku CLI
-#tap 'heroku/brew'
-#brew 'heroku'
-
 # Python - used by mackup and watchman
 brew 'python'
 # brew 'pyenv' # Don't install pyenv via homebrew and pyenv has interoperability issues
@@ -95,6 +91,7 @@ brew 'helm'
 brew 'postgresql@15'
 brew 'redis'
 brew 'sqlite'
+brew 'duckdb'
 
 # Supabase
 tap 'supabase/tap'
@@ -159,7 +156,6 @@ cask 'obsidian'
 cask 'zoom'
 cask 'obs'
 cask 'vlc'
-# cask 'vb-cable'  
 
 # Barrier KVM https://github.com/debauchee/barrier
 # cask 'barrier'
