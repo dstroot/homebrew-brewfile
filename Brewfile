@@ -98,24 +98,24 @@ tap 'supabase/tap'
 brew 'supabase'
 
 # dependencies
-brew 'gdbm'
-brew 'pcre'
-brew 'libidn'
-brew 'svn'
+# brew 'gdbm'
+# brew 'pcre'
+# brew 'libidn'
+# brew 'svn'
 
 # Pilosa Console https://www.pilosa.com
 # tap 'pilosa/homebrew-pilosa'
 # brew 'pilosa-console'
 
-brew 'smartmontools'
+# brew 'smartmontools'
 
 # stripe CLI https://stripe.com/docs/stripe-cli#install
 # tap 'stripe/stripe-cli'
 # brew 'stripe'
 
 # Video
-brew 'ffmpeg'
-brew 'mpv'
+# brew 'ffmpeg'
+# brew 'mpv'
 
 
 #####################################################
