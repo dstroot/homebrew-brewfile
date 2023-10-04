@@ -139,7 +139,7 @@ cask 'keepingyouawake'
 cask 'rectangle'
 cask 'topnotch'
 cask 'numi'
-cask 'qmoji'
+# cask 'qmoji'
 # cask 'spotify'
 
 # inkscape
