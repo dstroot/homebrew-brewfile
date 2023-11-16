@@ -38,6 +38,7 @@ brew 'grep'
 brew 'wrk'
 brew 'telnet'
 brew 'asciinema'
+brew 'gum'
 
 # https://upx.github.io/
 # brew 'upx'
