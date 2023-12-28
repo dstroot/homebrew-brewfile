@@ -8,6 +8,10 @@ tap 'homebrew/bundle'
 # tap 'homebrew/core'
 tap 'homebrew/services'
 
+# git/github cli
+brew 'git'
+brew 'gh'
+
 # Python - used by mackup and watchman
 brew 'python'
 # brew 'pyenv' # Don't install pyenv via homebrew and pyenv has interoperability issues
@@ -25,7 +29,6 @@ brew 'ruby'
 
 # apps
 brew 'bash-completion'
-brew 'git'
 brew 'mackup'
 brew 'jq'
 brew 'gpm'
@@ -39,6 +42,7 @@ brew 'wrk'
 brew 'telnet'
 brew 'asciinema'
 brew 'gum'
+brew 'pnpm'
 
 # https://upx.github.io/
 # brew 'upx'
@@ -55,12 +59,12 @@ brew 'gum'
 # brew 'awscli'
 
 # netlify
-tap 'netlify/netlifyctl'
-brew 'netlifyctl'
+# tap 'netlify/netlifyctl'
+# brew 'netlifyctl'
 
 # hygen templates  https://github.com/jondot/hygen
-tap 'jondot/tap'
-brew 'hygen'
+# tap 'jondot/tap'
+# brew 'hygen'
 
 # ZSH Stuff
 brew 'zsh'
@@ -89,14 +93,14 @@ brew 'helm'
 # brew 'watchman'
 
 # Databases
-brew 'postgresql@15'
-brew 'redis'
+# brew 'postgresql@15'
+# brew 'redis'
 brew 'sqlite'
 brew 'duckdb'
 
 # Supabase
-tap 'supabase/tap'
-brew 'supabase'
+# tap 'supabase/tap'
+# brew 'supabase'
 
 # dependencies
 # brew 'gdbm'
@@ -185,8 +189,8 @@ cask 'tableplus'
 cask 'beekeeper-studio'
 
 # GitHub Credential Manager
-tap 'microsoft/git'
-cask 'git-credential-manager-core'
+# tap 'microsoft/git'
+# cask 'git-credential-manager-core'
 
 # Dynamodb
 cask 'nosql-workbench'
@@ -237,17 +241,17 @@ mas 'Microsoft Word', id: 462054704
 mas 'Microsoft PowerPoint', id: 462062816
 
 # ----- Other -----
-mas 'Drafts', id: 1435957248
+# mas 'Drafts', id: 1435957248
 mas 'Craft', id: 1487937127
-mas 'Evernote', id: 406056744
-mas 'Unsplash Wallpapers', id: 1284863847
+# mas 'Evernote', id: 406056744
+# mas 'Unsplash Wallpapers', id: 1284863847
 mas 'Things', id: 904280696
-mas 'Slack', id: 803453959
-mas 'Todoist', id: 585829637
-mas 'Disk Speed Test', id: 425264550
+# mas 'Slack', id: 803453959
+# mas 'Todoist', id: 585829637
+# mas 'Disk Speed Test', id: 425264550
 mas 'iMovie', id: 408981434
-mas 'LastPass', id: 926036361
-mas 'Tailscale', id: 1475387142
+# mas 'LastPass', id: 926036361
+# mas 'Tailscale', id: 1475387142
 
 # --- Native Apps ---
 # mas 'Xcode', id: 497799835
