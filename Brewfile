@@ -239,60 +239,28 @@ mas 'Microsoft Outlook', id: 985367838
 mas 'Microsoft Word', id: 462054704
 mas 'Microsoft PowerPoint', id: 462062816
 
-# ----- Other -----
-# mas 'Drafts', id: 1435957248
-mas 'Craft', id: 1487937127
-# mas 'Evernote', id: 406056744
-# mas 'Unsplash Wallpapers', id: 1284863847
-mas 'Things', id: 904280696
-# mas 'Slack', id: 803453959
-# mas 'Todoist', id: 585829637
-# mas 'Disk Speed Test', id: 425264550
-mas 'iMovie', id: 408981434
-# mas 'LastPass', id: 926036361
-# mas 'Tailscale', id: 1475387142
-
 # --- Native Apps ---
 # mas 'Xcode', id: 497799835
 # mas 'GarageBand', id: 682658836
-# mas 'iMovie', id: 408981434
+mas 'iMovie', id: 408981434
 # mas 'Pages', id: 409201541
 # mas 'Keynote', id: 409183694
 # mas 'Numbers', id: 409203825
 
-
-# Installed apps October 2023
-# ----------------------------
-
-# mas 'Things', id: 904280696   
+# ----- Other -----
+mas 'Color Picker', id: 1545870783   
+mas 'Dato', id: 1470584107 
+# mas 'Drafts', id: 1435957248
+# mas 'Craft', id: 1487937127
+# mas 'Evernote', id: 406056744
+# mas 'Unsplash Wallpapers', id: 1284863847
+# mas 'Things', id: 904280696
+# mas 'Slack', id: 803453959
+# mas 'Todoist', id: 585829637
+# mas 'Disk Speed Test', id: 425264550
+# mas 'LastPass', id: 926036361
+# mas 'Tailscale', id: 1475387142
 # mas 'Disk Speed Test', id: 425264550   
-# mas 'Unsplash Wallpapers', id: 1284863847  
-# mas 'Evernote', id: 406056744   
-# mas 'LastPass', id: 926036361   
-# mas 'Microsoft OneNote', id: 784801555   
-# mas 'Color Picker', id: 1545870783  
-
-
-# mas 'Microsoft Excel', id: 462058435  
-# mas 'Microsoft Word', id: 462054704 
-# mas 'Microsoft PowerPoint', id: 462062816   
-# mas 'Microsoft Outlook', id: 985367838    
-# mas 'OneDrive', id: 823766827  
-# mas 'Microsoft To Do', id: 1274495053  
-# mas 'Microsoft Remote Desktop', id: 1295203466  
-
-# mas 'Todoist', id: 585829637   
-# mas 'Dato', id: 1470584107  
-# mas 'Craft', id: 1487937127  
-# mas 'Tailscale', id: 1475387142  
-# mas 'iMovie', id: 408981434   
-# mas 'Apple Configurator', id: 1037126344  
-# mas 'Slack', id: 803453959   
-# mas 'AdGuard for Safari', id: 1440147259  
-# mas 'Microsoft Word', id: 462054704   
-
-
-
 
 #####################################################
 # Examples
