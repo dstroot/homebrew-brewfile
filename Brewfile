@@ -146,6 +146,8 @@ cask 'numi'
 # cask 'qmoji'
 # cask 'spotify'
 
+cask 'samsung-portable-ssd-t7'
+
 # inkscape
 # cask 'xquartz'
 # cask 'inkscape'
