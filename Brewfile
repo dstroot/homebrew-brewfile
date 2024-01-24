@@ -125,11 +125,7 @@ brew 'duckdb'
 #####################################################
 # Casks
 #####################################################
-# tap 'homebrew/cask'
-# cask_args appdir: "~/Applications", require_sha: true
-cask_args require_sha: true
 
-# -------------------------
 cask 'visual-studio-code'
 cask 'github'
 cask 'google-chrome'
@@ -222,6 +218,7 @@ cask 'font-hasklig'
 # Whalebrew
 # https://github.com/whalebrew/whalebrew
 #####################################################
+
 # brew 'whalebrew'
 # whalebrew 'whalebrew/wget'
 
@@ -230,6 +227,7 @@ cask 'font-hasklig'
 # Mas Apps (Mac App Store)
 # https://github.com/mas-cli/mas
 #####################################################
+
 brew 'mas'
 
 # ---- Microsoft ----
