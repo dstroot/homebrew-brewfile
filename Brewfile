@@ -69,6 +69,9 @@ brew 'pnpm'
 brew 'zsh'
 brew 'zsh-completions'
 
+# By default, macOS provides an outdated Bash version (Bash 3.2.57 from 2007). To install the newest version of Bash:
+brew 'bash'
+
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
 
