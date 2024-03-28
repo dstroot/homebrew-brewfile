@@ -253,7 +253,8 @@ mas 'iMovie', id: 408981434
 
 # ----- Other -----
 mas 'Color Picker', id: 1545870783   
-mas 'Dato', id: 1470584107 
+mas 'Dato', id: 1470584107
+# mas 'Bitwarden', id: 
 # mas 'Drafts', id: 1435957248
 # mas 'Craft', id: 1487937127
 # mas 'Evernote', id: 406056744
@@ -263,8 +264,7 @@ mas 'Dato', id: 1470584107
 # mas 'Todoist', id: 585829637
 # mas 'Disk Speed Test', id: 425264550
 # mas 'LastPass', id: 926036361
-# mas 'Tailscale', id: 1475387142
-# mas 'Disk Speed Test', id: 425264550   
+# mas 'Tailscale', id: 1475387142  
 
 #####################################################
 # Examples
