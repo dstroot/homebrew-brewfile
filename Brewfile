@@ -254,7 +254,7 @@ mas 'iMovie', id: 408981434
 # ----- Other -----
 mas 'Color Picker', id: 1545870783   
 mas 'Dato', id: 1470584107
-# mas 'Bitwarden', id: 
+mas 'Bitwarden', id: 1352778147
 # mas 'Drafts', id: 1435957248
 # mas 'Craft', id: 1487937127
 # mas 'Evernote', id: 406056744
