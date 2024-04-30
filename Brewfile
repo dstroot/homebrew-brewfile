@@ -146,7 +146,7 @@ cask 'numi'
 # cask 'spotify'
 
 # SSD tool
-# cask 'samsung-portable-ssd-t7'
+cask 'samsung-portable-ssd-t7'
 
 # inkscape
 # cask 'xquartz'
