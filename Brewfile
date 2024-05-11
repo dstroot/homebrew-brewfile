@@ -205,10 +205,13 @@ cask 'raindropio'
 tap 'buo/cask-upgrade'
 
 # install fonts
+# https://www.nerdfonts.com/#home
+
 tap 'homebrew/cask-fonts'
 # --------------------------
 # cask 'font-hack'
 cask 'font-hasklig'
+cask 'font-sauce-code-pro-nerd-font'
 # cask 'font-monoid'
 # cask 'font-source-code-pro'
 # cask 'font-iosevka'
