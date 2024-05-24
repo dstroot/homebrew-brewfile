@@ -208,7 +208,7 @@ tap 'buo/cask-upgrade'
 # install fonts
 # https://www.nerdfonts.com/#home
 
-tap 'homebrew/cask-fonts'
+# tap 'homebrew/cask-fonts'
 # --------------------------
 # cask 'font-hack'
 cask 'font-hasklig'
