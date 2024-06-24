@@ -160,7 +160,7 @@ cask 'insomnia'
 cask 'obsidian'
 
 # broadcasting
-cask 'zoom'
+# cask 'zoom'
 cask 'obs'
 cask 'vlc'
 
